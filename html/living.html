@@ -6,12 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bukovel Проживання</title>
 
+    <link rel="icon" href="../Images/Icon.png">
     <link rel="stylesheet" href="../css/bootstrap3.css">
     <link rel="stylesheet" href="../css/font-awesome.css">
     <link rel="stylesheet" href="../css/Style.css">
-
-    <!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> -->
-
 
 </head>
 <body>
@@ -67,120 +65,265 @@
 
     
     
-
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-3">
-                <div class="row">
+    <div id="Heads_Liv">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
                     <nav class="navbar navbar-default sidebar" role="navigation">
-                            <div class="container-fluid">
-                                <div class="navbar-header">
-                                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">
-                                    <span class="sr-only">Toggle navigation</span>
+                        <div class="container-fluid">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
-                                  </button>      
-                                  <a class="navbar-brand" href="#">Фільтр</i></a>
-                                </div>
-                            
-                            <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
-                                <br><br>
+                                </button>      
+                                <a class="navbar-brand" href="#" id="Filter">Фільтр</i></a>
+                            </div>
+                         
+                        <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
+                            <br><br>
 
-                                <div id="accordion" class="panel-group">
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">
-                                            <h4 class="panel-title">
-                                                <a href="#collapse-1" data-parent="#accordion" data-toggle="collapse" aria-expanded="true" >Ціна за ніч</a>
-                                            </h4>
-                                        </div>
-                                        <div id="collapse-1" class="panel-collapse collapse in" aria-expanded="true" >
-                                            <div class="panel-body">
-                                                <input type="checkbox">  0-1000 грн <br>
-                                                <input type="checkbox">  1000-2000 грн <br>
-                                                <input type="checkbox">  2000-3000 грн <br>
-                                                <input type="checkbox">  > 3000 грн <br>
-                                            </div>
+                            <div id="accordion" class="panel-group">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a href="#collapse-1" data-parent="#accordion" data-toggle="collapse" aria-expanded="true" >Ціна за ніч</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse-1" class="panel-collapse collapse in" aria-expanded="true" >
+                                        <div class="panel-body">
+                                            <input type="checkbox">  0-1000 грн <br>
+                                            <input type="checkbox">  1000-2000 грн <br>
+                                            <input type="checkbox">  2000-3000 грн <br>
+                                            <input type="checkbox">  > 3000 грн <br>
                                         </div>
                                     </div>
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">
-                                            <h4 class="panel-title">
-                                                <a href="#collapse-2" data-parent="#accordion" data-toggle="collapse" class="collapsed" aria-expanded="false">Популярні зручності</a>
-                                            </h4>
-                                        </div>
-                                        <div id="collapse-2" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
-                                            <div class="panel-body">
-                                                <input type="checkbox">  Опалення <br>
-                                                <input type="checkbox">  Фен <br>
-                                                <input type="checkbox">  Душова кабіна <br>
-                                                <input type="checkbox">  Посуд <br>
-                                                <input type="checkbox">  Гараж <br>
-                                                <input type="checkbox">  Сауна <br>
-                                                <input type="checkbox">  Кондиціонер <br>
-                                            </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a href="#collapse-2" data-parent="#accordion" data-toggle="collapse" class="collapsed" aria-expanded="false">Популярні зручності</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse-2" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                                        <div class="panel-body">
+                                            <input type="checkbox">  Опалення <br>
+                                            <input type="checkbox">  Фен <br>
+                                            <input type="checkbox">  Душова кабіна <br>
+                                            <input type="checkbox">  Посуд <br>
+                                            <input type="checkbox">  Гараж <br>
+                                            <input type="checkbox">  Сауна <br>
+                                            <input type="checkbox">  Кондиціонер <br>
                                         </div>
                                     </div>
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">
-                                            <h4 class="panel-title">
-                                                <a href="#collapse-3" data-parent="#accordion" data-toggle="collapse" class="collapsed" aria-expanded="false">Зручності в номері</a>
-                                            </h4>
-                                        </div>
-                                        <div id="collapse-3" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
-                                            <div class="panel-body">
-                                                <input type="checkbox">  Опалення <br>
-                                                <input type="checkbox">  Телевізор <br>
-                                                <input type="checkbox">  Мінібар <br>
-                                                <input type="checkbox">  Фен <br>
-                                                <input type="checkbox">  Душова кабіна <br>
-                                                <input type="checkbox">  Чайник <br>
-                                                <input type="checkbox">  Тапочки <br>
-                                                <input type="checkbox">  Міні-кухня <br>
-                                                <input type="checkbox">  Посуд <br>
-                                                <input type="checkbox">  Гараж <br>
-                                                <input type="checkbox">  Сауна <br>
-                                                <input type="checkbox">  Охолоджувальний басейн <br>
-                                                <input type="checkbox">  Гідромасажна ванна <br>
-                                                <input type="checkbox">  Терасcа <br>
-                                                <input type="checkbox">  Ванна <br>
-                                                <input type="checkbox">  Кондиціонер <br>
-                                                <input type="checkbox">  Халат <br>
-                                                <input type="checkbox">  Сейф <br>
-                                                <input type="checkbox">  Косметика <br>
-                                            </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a href="#collapse-3" data-parent="#accordion" data-toggle="collapse" class="collapsed" aria-expanded="false">Зручності в номері</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse-3" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                                        <div class="panel-body">
+                                            <input type="checkbox">  Опалення <br>
+                                            <input type="checkbox">  Телевізор <br>
+                                            <input type="checkbox">  Мінібар <br>
+                                            <input type="checkbox">  Фен <br>
+                                            <input type="checkbox">  Душова кабіна <br>
+                                            <input type="checkbox">  Чайник <br>
+                                            <input type="checkbox">  Тапочки <br>
+                                            <input type="checkbox">  Міні-кухня <br>
+                                            <input type="checkbox">  Посуд <br>
+                                            <input type="checkbox">  Гараж <br>
+                                            <input type="checkbox">  Сауна <br>
+                                            <input type="checkbox">  Охолоджувальний басейн <br>
+                                            <input type="checkbox">  Гідромасажна ванна <br>
+                                            <input type="checkbox">  Терасcа <br>
+                                            <input type="checkbox">  Ванна <br>
+                                            <input type="checkbox">  Кондиціонер <br>
+                                            <input type="checkbox">  Халат <br>
+                                            <input type="checkbox">  Сейф <br>
+                                            <input type="checkbox">  Косметика <br>
                                         </div>
                                     </div>
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">
-                                            <h4 class="panel-title">
-                                                <a href="#collapse-4" data-parent="#accordion" data-toggle="collapse" class="collapsed" aria-expanded="false">Харчування</a>
-                                            </h4>
-                                        </div>
-                                        <div id="collapse-4" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
-                                            <div class="panel-body">
-                                                <input type="checkbox">  Без сніданку <br>
-                                                <input type="checkbox">  Із сніданком <br>
-                                            </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a href="#collapse-4" data-parent="#accordion" data-toggle="collapse" class="collapsed" aria-expanded="false">Харчування</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse-4" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                                        <div class="panel-body">
+                                            <input type="checkbox">  Без сніданку <br>
+                                            <input type="checkbox">  Із сніданком <br>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        </div>
+                     </nav>
+                </div>
 
+
+                <div class="hom">
+                    <div class="col-lg-9">
+                        <div class="row hom" style="padding-bottom: 15px; ">
+                            <div class="col-lg-4 col-xs-12">
+                                <div class="img-wrap" style="background-image: url(../Images/GotBuk.jpg); margin-top: 25px; margin-bottom: 25px;"></div>
                             </div>
-                    </nav>
-                </div>
-            </div>
+                            <div class="container">           
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                            <h3><a href="#" style="text-decoration: underline;">Готель "Буковель"</a></h3> 
+                                            <use xlink:href="#weather-small-wind-direction"></use>
+                                            <a href="#">~ 200м. від витягів, ТК Буковель, с. Поляниця</a> 
+                                            <div id="info-home" style="text-decoration: underline;">
+                                                (кількість) користувачів, що переглядають зараз цей готель
+                                                <div>
+                                                        Останнє бронювання: 
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-8" id="info-home-1">
+                                                <span>Двомісний економ </span>
+                                                <br>
+                                                <span>без сніданків</span>
+                                            </div>
+                                            <div class="right">
+                                                <p>Ціна за 1 ніч</p>
+                                                <h3>443 грн.</h3>
+                                            </div>
 
-            <div class="col-lg-9">
-                <div class="row" id="hom">
-                    
+                                            <div class="book-room row right">
+                                                <div>
+                                                    <a href="#" class="btn btn-danger" style="margin-right: 15px;">Вибрати номер</a>
+                                                </div>
+                                            </div>
+                                    </div>
+                                </div>         
+                            </div> 
+                        </div>
+                        <br>
+
+
+                        <div class="row hom" style="padding-bottom: 15px;">
+                            <div class="col-lg-4 col-xs-12">
+                                <div class="img-wrap" style="background-image: url(../Images/GotEldevans.jpg); margin-top: 25px; margin-bottom: 25px;"></div>
+                            </div>
+                            <div class="container">           
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                            <h3><a href="#" style="text-decoration: underline;">Готель "Едельвейс"</a></h3> 
+                                            <use xlink:href="#weather-small-wind-direction"></use>
+                                            <a href="#">~ 35км. від витягів, м.Яремче, Івано-Франківська обл.</a> 
+                                            <div id="info-home" style="text-decoration: underline;">
+                                                (кількість) користувачів, що переглядають зараз цей готель
+                                                <div>
+                                                        Останнє бронювання: 
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-8" id="info-home-1">
+                                                <span>Двомісний напівлюкс ІІ категорії </span>
+                                                <br>
+                                                <span>без сніданків</span>
+                                            </div>
+                                            <div class="right">
+                                                <p>Ціна за 1 ніч</p>
+                                                <h3>420 грн.</h3>
+                                            </div>
+
+                                            <div class="book-room row right">
+                                                <div>
+                                                    <a href="#" class="btn btn-danger" style="margin-right: 15px;">Вибрати номер</a>
+                                                </div>
+                                            </div>
+                                    </div>
+                                </div>         
+                            </div> 
+                        </div>
+                        <br>
+
+                        <div class="row hom" style="padding-bottom: 15px;">
+                            <div class="col-lg-4 col-xs-12">
+                                <div class="img-wrap" style="background-image: url(../Images/GotShelter.jpg); margin-top: 25px; margin-bottom: 25px;"></div>
+                            </div>
+                            <div class="container">           
+                                <div class="row ">
+                                    <div class="col-lg-6">
+                                            <h3><a href="#" style="text-decoration: underline;">Готель "Shelter"</a></h3> 
+                                            <use xlink:href="#weather-small-wind-direction"></use>
+                                            <a href="#">~ 50м. від витягів, ТК Буковель, с. Поляниця</a> 
+                                            <div id="info-home" style="text-decoration: underline;">
+                                                (кількість) користувачів переглядають зараз цей готель
+                                                <div>
+                                                        Останнє бронювання: 
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-8" id="info-home-1">
+                                                <span>Стандарт </span>
+                                                <br>
+                                                <span>без сніданків</span>
+                                            </div>
+                                            <div class="right">
+                                                <p>Ціна за 1 ніч</p>
+                                                <h3>443 грн.</h3>
+                                            </div>
+
+                                            <div class="book-room row right">
+                                                <div>
+                                                    <a href="#" class="btn btn-danger" style="margin-right: 15px;">Вибрати номер</a>
+                                                </div>
+                                            </div>
+                                    </div>
+                                </div>         
+                            </div> 
+                        </div>
+                        <br>
+
+                        <div class="row hom" style="padding-bottom: 15px;">
+                            <div class="col-lg-4 col-xs-12">
+                                <div class="img-wrap" style="background-image: url(../Images/GotIRIS.jpg); margin-top: 25px; margin-bottom: 25px;"></div>
+                            </div>
+                            <div class="container">           
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                            <h3><a href="#" style="text-decoration: underline;">Готель "ІРІС"</a></h3> 
+                                            <use xlink:href="#weather-small-wind-direction"></use>
+                                            <a href="#">~ 70м. від витягів, ТК Буковель, с. Поляниця</a> 
+                                            <div id="info-home" style="text-decoration: underline;">
+                                                (кількість) користувачів переглядають зараз цей готель
+                                                <div>
+                                                        Останнє бронювання: 
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-8" id="info-home-1">
+                                                <span>Номер "Люкс"</span>
+                                                <br>
+                                                <span>із сніданками</span>
+                                            </div>
+                                            <div class="right">
+                                                <p>Ціна за 1 ніч</p>
+                                                <h3>1 390.00 грн.</h3>
+                                            </div>
+
+                                            <div class="book-room row right">
+                                                <div>
+                                                    <a href="#" class="btn btn-danger" style="margin-right: 15px;">Вибрати номер</a>
+                                                </div>
+                                            </div>
+                                    </div>
+                                </div>         
+                            </div> 
+                        </div>
+                    </div>
                 </div>
+
             </div>
         </div>
     </div>
 
-
+   
                     
     
 
