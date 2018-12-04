@@ -55,7 +55,7 @@ hr {
 }
 
 #headerWrap{
-    background: url(../Images/buk.jpg) no-repeat center top;
+    background: url(../Images/maxresdefault.jpg) no-repeat center top;
     margin-top: -20px;
     padding-top: 20px;
     text-align: center;
@@ -76,7 +76,8 @@ hr {
 }
 
 #Map img {
-    width: 100%;
+    width: 90%;
+    padding-left: 100px;
 }
 
 #headerWrap h1 {
@@ -122,7 +123,7 @@ hr {
 #silverBk img:hover{
     height: 500px;
     margin-bottom: -100px;
-} 
+}  
 
 #Filter {
     color: #000;
@@ -132,15 +133,57 @@ hr {
     font-size: 30px;
 }
 
+.W img {
+        
+    border-radius: 5px;
+}
+
+.galleryImg div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#cams img {    
+    height: 458px;
+    border-radius: 5px;
+}
+
+/* .photo-carousel img {
+    height: auto;
+    width: 80%;
+} */
+
+
+/* .thumb img {
+    -webkit-filter: grayscale(0);
+    filter: none;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+.thumb img:hover {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+.thumb {
+    padding: 5px;
+} */
+
+
+
+
 #ft {
     background: #2d2d2d;
-    padding-top: 30px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #ft h4 {
     font-size: 35px;
-    color: #A60000;
+    color: #bdbdbd;
 }
 
 #ft i {
@@ -151,6 +194,16 @@ hr {
 
 #ft i:hover {
     color: #ff7878;
+}
+
+#ft p {
+    font-size: 14px;
+    color: white;
+}
+
+#ft button {
+    color: #999;
+    background-color: #555;
 }
 
 #hz {
@@ -254,7 +307,24 @@ hr {
 
 .hotels-list .hotels-list-item .book-room .choose-room {
     display: block;
-    margin-top: 15px; }
+    margin-top: 15px; 
+}
+
+
+.img-wrp {
+    padding-top: 15px;
+    position: relative;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 235px;
+    -webkit-flex: 0 0 235px;
+    flex: 0 0 235px;
+    min-height: 235px;
+    size: cover;
+    position: center;
+    border-radius: 10px; 
+    border: 1px solid #000;
+}
+
 
 .img-wrap {
     position: relative;
