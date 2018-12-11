@@ -71,8 +71,17 @@ hr {
     -o-background-size: cover;
     background-size: cover;
 }
+
+#Map {
+    margin-top: -15px;
+    background: #e0e0e0;
+}
+
 #Map h4 {
     font-size: 35px;
+    color: #A60000;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 #Map img {
